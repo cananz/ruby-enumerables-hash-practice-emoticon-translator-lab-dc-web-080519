@@ -9,8 +9,7 @@ dictionary = {
   "get_meaning" => {},
   "get_emoticon" => {}
 }
-
-  
+emoticons.each do 
 
 end
 
