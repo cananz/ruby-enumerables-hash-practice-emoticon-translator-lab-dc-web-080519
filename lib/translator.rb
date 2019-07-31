@@ -19,10 +19,6 @@ end
 def get_japanese_emoticon(file, emoticon)
   load_library(file)
   
-  if dictionary["get_emoticon"].has_key?(emoticon)
-  dictionary["get_emoticon"][icons]
-  
-  end
 end
 ################################
 
