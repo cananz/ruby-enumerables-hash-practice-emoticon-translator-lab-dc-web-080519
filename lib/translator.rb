@@ -18,7 +18,7 @@ end
 
 def get_japanese_emoticon(file, emoticon)
   lookup = load_library(file)
-  japanese = lookup[]
+  japanese = lookup["get_emoticon"][emoticon]
   
 end
 ################################
