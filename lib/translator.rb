@@ -19,7 +19,7 @@ end
 def get_japanese_emoticon(file, emoticon)
   lookup = load_library(file)
   japanese = lookup["get_emoticon"][emoticon]
-  if japanese
+  if japanese.has_value?
     japanese
   else
     "Sorry, that emoticon was not found"
