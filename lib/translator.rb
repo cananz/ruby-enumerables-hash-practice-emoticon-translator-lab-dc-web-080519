@@ -4,13 +4,12 @@ require "yaml"
 
 def load_library(file)
   emoticons = YAML.load_file(file)
-
-dictionary = {
+  dictionary = {
   "get_meaning" => {},
   "get_emoticon" => {}
-}
-emoticons.each do 
-
+    
+  }
+  emoticons.each do 
 end
 
 def get_japanese_emoticon
