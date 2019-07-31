@@ -11,7 +11,7 @@ dictionary = {
 }
 emoticons.each do |meaning, icons|
 dictionary["get_meaning"][icons[1]] = meaning
-dictionary["get_emoticon"][icons[0]] = emoticons[meaning][0]
+dictionary["get_emoticon"][icons[0]] = emoticons[meaning][1]
 end
 dictionary
 end
